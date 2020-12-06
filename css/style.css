@@ -1,0 +1,217 @@
+        @import url('../css/variables.css');
+        /*start navigation*/
+        
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .nav-colored {
+            background-color: #000;
+        }
+        
+        .nav-transparent {
+            background-color: transparent;
+        }
+        
+        .header-area .main-menu .navbar .navbar-brand {
+            padding: 0 0 0 3rem;
+        }
+        
+        .header-area .main-menu .navbar {
+            padding: 0.5rem 4rem;
+        }
+        
+        .header-area .main-menu .nav-item .nav-link {
+            font-family: sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            line-height: 2px;
+            color: var(--title-color);
+            padding: 0.5rem;
+            font-size: 14px;
+        }
+        
+        .header-area .main-menu .navbar-nav .active a {
+            background: var(--gradient-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header-area .main-menu .navbar-nav a:hover {
+            background: var(--gradient-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        /*end navigation*/
+        
+        #landing {
+            background-attachment: fixed;
+        }
+        
+        .item img {
+            height: 100vh;
+        }
+        /*end navigation*/
+        
+        .heading {
+            text-transform: uppercase;
+            color: black;
+            font-weight: 600;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .subheading {
+            color: red;
+            text-transform: lowercase;
+            font-weight: 500;
+            letter-spacing: 5px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        /*about area*/
+        
+        .about {
+            background-image: url('../images/about.svg');
+            background-size: 45%;
+            background-repeat: no-repeat;
+            background-position: right 150px;
+            min-height: 100vh;
+            padding-top: 30px;
+        }
+        
+        .about .aboutus {
+            background-color: #fff;
+            padding: 35px;
+            border-radius: 8px;
+            ;
+        }
+        
+        .about .aboutus span {
+            color: red;
+            letter-spacing: 2px;
+        }
+        /*projects area*/
+        
+        .project-area {
+            min-height: 120vh;
+            background: linear-gradient(to bottom, white 5%, #f2f2f2 90%, white);
+        }
+        
+        .project-area .button-group button {
+            padding: 16px 7px;
+            background-color: transparent;
+            border: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            transition: 1s ease-in-out;
+            border-bottom: 1px dotted white;
+        }
+        
+        .project-area .button-group button,
+        button:active,
+        button:focus {
+            outline: none;
+        }
+        
+        .project-area .button-group button:hover {
+            outline: none;
+            color: red;
+            transition: 1s ease-in-out;
+            border-bottom: 1px dotted red;
+        }
+        
+        .project-area .grid .element-item a img {
+            transition: .7s ease-in-out;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            outline: none;
+        }
+        
+        .project-area .grid .element-item a img:hover {
+            box-shadow: 0 .6rem 1.2rem rgba(0, 0, 0, .35)!important;
+            transition: 0.5s ease-in-out;
+            transform: scale(1.05);
+        }
+        /*contact area*/
+        
+        .contact {
+            background-image: url('../images/mail.svg');
+            background-size: 55%;
+            background-repeat: no-repeat;
+            background-position: left 150px;
+            min-height: 100vh;
+            padding-top: 30px;
+        }
+        
+        .form {
+            padding: 35px;
+            background-color: #fff;
+        }
+        
+        .form input,
+        .form textarea {
+            border: 1px solid gray;
+        }
+        
+        .form input,
+        .form input:hover,
+        .form input::focus,
+        .form textarea,
+        .form textarea:hover,
+        .form textarea:focus {
+            outline: none!important;
+            border-radius: 0px;
+            border: 1px solid gray;
+        }
+        
+        .form .btn-submit {
+            background-color: red;
+            transition: 1s ease-in-out;
+            letter-spacing: 2px;
+            color: white;
+            border: none;
+        }
+        
+        .form .btn-submit:hover {
+            background-color: #f2f2f2;
+            transition: 1s ease-in-out;
+            color: red;
+        }
+        /*footer*/
+        
+        .footer {
+            color: black;
+            font-size: 12px;
+            padding-top: 10px;
+            background: linear-gradient(to top, #f2f2f2 90%, white);
+        }
+        
+        .footer a i {
+            margin-right: 2px;
+            color: gray;
+            opacity: 0.7;
+            font-size: 14;
+            padding: 10px 10px;
+            transition: 0.5s ease-in-out;
+        }
+        
+        .footer a i:hover {
+            color: red;
+            opacity: 1;
+            transition: 0.5s ease-in-out;
+        }
+        
+        .footer .btn-submit {
+            background-color: red;
+            transition: 1s ease-in-out;
+            color: white;
+            font-size: 12px;
+        }
+        
+        .footer .btn-submit:hover {
+            background-color: white;
+            transition: 1s ease-in-out;
+            color: black;
+            border: 1px solid red;
+        }
